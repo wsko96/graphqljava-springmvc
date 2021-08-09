@@ -181,9 +181,11 @@
 </web-app>
 ```
 
-- https://github.com/wsko96/graphqljava-demo 프로젝트에 있는,
-  src/main/java/**/*.java 파일들과 src/main/resources/schema.graphqls 파일을
-  같은 상대 경로들에 복사.
+- https://github.com/wsko96/graphqljava-demo 프로젝트의 아래 소스들을 같은 상대 경로들에 복사
+
+        - src/main/java/com/example/graphqljavademo/bookdetails/*.java
+        - src/main/resources/schema.graphqls
+
 
 - src/main/webapp/WEB-INF/api-service-servlet.xml 추가
 
